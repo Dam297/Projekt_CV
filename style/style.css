@@ -1,3 +1,19 @@
 .bg-blue {
     background-color: #54DEFD;
 } 
+.bg-blues {
+    background-color: #49C6E5;
+} 
+li:hover {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #54DEFD;
+  }
+  
+  nav {
+    height: 5rem;
+  }
+  .c-blue {
+    color: #54DEFD;
+} 
