@@ -7,50 +7,61 @@
    
     <link href="bootstrap-5.1.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="style/style.css" rel="stylesheet" type="text/css">
-    <script src="bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+   
 
     <title>Životopis - Damián Regeš</title>
 </head>
 <body>
-   
-    <nav class="bg-blues sticky-top fs-5" >
-        
-<ul class="nav justify-content-center p-2 ">
-    <li class="nav-item m-2">
-        <a class="nav-link text-white" href="#O_mne">O mne</a>
-    </li>
-    <li class="nav-item m-2">
-        <a class="nav-link text-white" href="#Skusenosti">Skúsenosti</a>
-    </li>
-    <li class="nav-item m-2">
-        <a class="nav-link text-white" href="#Vzdelanie">Vzdelanie</a>
-    </li>
-    <li class="nav-item m-2">
-        <a class="nav-link text-white" href="#Dovednosti">Dovednosti</a>
-    </li>
-    <li class="nav-item  m-2">
-        <a class="nav-link text-white" href="#Zaujmy">Záujmy</a>
-    </li>
-    <li class="nav-item m-2">
-        <a class="nav-link text-white" href="#Kontakt">Kontakt</a>
-    </li>
+   <div id="progressbar"></div>
+	<div id="scrollPath"></div>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbar">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item m-2">
+                    <a class="nav-link text-white" href="#O_mne">O mne</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link text-white" href="#Skusenosti">Skúsenosti</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link text-white" href="#Vzdelanie">Vzdelanie</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link text-white" href="#Dovednosti">Dovednosti</a>
+                </li>
+                <li class="nav-item  m-2">
+                    <a class="nav-link text-white" href="#Zaujmy">Záujmy</a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link text-white" href="#Kontakt">Kontakt</a>
+                </li>
+            </ul>
     
-</ul>
+          </div>
+        </div>
+      </nav>	
+	
+<div id="sections">
 
-    </nav>
-
-<section id="O_mne">
+<section class="section" id="O_mne">
     <div class="container-sm pt-5 my-5 bg-blue text-white rounded" >
         <div class="row">
-            <div class="col-sm-5">
+            <div class="col-sm-8">
                 <h2>O mne</h2>
                 <h3 class="fs-5">Damián Regeš</h3>
-                <p>Volám sa Damián Regeš, som žiak 4. ročníka na Súkromnej strednej odbornej školy v Poprade.....Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi, rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan ipsum.</p>
-            </div>
+                <p class="lead">Volám sa Damián Regeš, som žiak 4. ročníka na Súkromnej strednej odbornej školy v Poprade.....Lorem ipsum dolor si. Nullam volutrpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi, rhoncus sed lorem 
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi, rhoncus sed lorem  Donec pellentesque turpis sit amet elit rutrum tincidu
 
-            <div class="col-sm-7">
-                
-                <img src="foto/ja.JPG" class="float-end img-fluid">
+            
+                </div>
+            <div class="col-sm-4">
+                <div class="icon" id="o_mne_icon">
+                <svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="-25, -25, 450,450"><g id="svgg"><path id="path0" d="M175.000 1.183 C 10.270 21.534,-58.998 223.923,58.539 341.461 C 176.367 459.289,378.987 389.487,398.870 224.219 C 414.431 94.879,304.345 -14.797,175.000 1.183 M224.746 25.740 C 354.622 44.848,418.879 192.630,344.252 300.588 L 340.335 306.254 335.573 297.072 C 318.311 263.791,290.674 238.879,255.599 224.985 L 249.089 222.407 251.693 220.453 C 280.009 199.207,290.303 154.627,274.599 121.251 C 253.088 75.533,194.928 59.807,153.311 88.456 C 108.589 119.243,105.956 188.677,148.307 220.453 L 150.911 222.407 144.401 224.985 C 109.326 238.879,81.689 263.791,64.427 297.072 L 59.665 306.254 55.748 300.588 C -31.375 174.552,73.783 3.530,224.746 25.740 M217.738 100.989 C 261.413 116.176,272.002 171.199,236.948 200.811 C 216.009 218.500,183.991 218.500,163.052 200.811 C 125.455 169.051,141.437 108.276,189.844 98.931 C 195.552 97.829,212.180 99.056,217.738 100.989 M225.384 241.325 C 264.607 249.795,297.412 275.002,314.863 310.081 C 317.501 315.383,321.875 325.825,321.875 326.819 C 321.875 327.475,307.193 339.509,300.991 343.936 C 241.233 386.596,158.767 386.596,99.009 343.936 C 92.807 339.509,78.125 327.475,78.125 326.819 C 78.125 325.825,82.499 315.383,85.137 310.081 C 104.199 271.764,140.429 246.117,184.766 239.556 C 191.585 238.547,217.805 239.689,225.384 241.325 " stroke="none" fill="#000000" fill-rule="evenodd"></path></g></svg>
+					</div>
             </div>
 
         </div>
@@ -60,34 +71,73 @@
     </section>
   
 
-        <section id="Skusenosti">
+        <section class="section" id="Skusenosti">
             <div class="container-sm p-3 pt-5 my-5 border  rounded" >
+                <div class="row">
+                    <div class="col-sm-8">
                 <h2 class="c-blue">Skúsenosti</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi, rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan ipsum.</p>
-              </div>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+              
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi, rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan ipsum.</p>
+
+            </div>
+              <div class="col-sm-4">
+                <div class="icon" id="skus_icon">
+                <svg id="svg"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="-25, -25, 450, 450"><g id="svgg"><path id="path0" d="M107.332 2.383 C 64.269 16.036,73.297 78.875,118.359 79.140 C 153.205 79.344,170.802 37.100,146.130 12.471 C 135.739 2.098,120.627 -1.831,107.332 2.383 M78.125 97.209 C 70.536 99.315,64.591 104.223,60.938 111.399 L 58.984 115.234 58.780 155.859 C 58.668 178.203,58.852 210.723,59.190 228.125 L 59.805 259.766 61.902 263.867 L 63.998 267.969 55.863 267.969 L 47.727 267.969 47.285 265.430 C 47.041 264.033,42.660 229.794,37.548 189.343 C 31.443 141.035,27.843 115.002,27.057 113.483 C 20.099 100.027,0.018 104.630,-0.007 119.688 C -0.020 127.888,20.345 285.333,21.869 288.810 C 22.789 290.908,24.489 292.862,26.630 294.279 L 29.961 296.484 57.559 296.717 L 85.156 296.949 85.121 325.623 L 85.086 354.297 68.672 367.578 C 48.720 383.722,49.088 383.344,48.629 388.126 C 47.998 394.689,52.057 399.219,58.568 399.219 C 62.012 399.219,63.103 398.528,74.805 388.940 L 85.156 380.458 85.156 385.619 C 85.156 396.606,92.660 402.498,100.536 397.695 C 104.073 395.538,105.018 393.403,105.466 386.552 L 105.859 380.525 115.746 388.642 C 130.560 400.803,137.298 402.421,141.254 394.768 C 145.139 387.252,143.372 384.679,122.852 367.975 L 105.469 353.824 105.469 325.349 L 105.469 296.875 129.883 296.858 C 158.893 296.837,163.159 295.657,165.319 287.049 C 165.803 285.124,167.480 284.515,168.363 285.944 C 168.631 286.377,171.641 308.532,175.053 335.177 C 181.902 388.677,181.803 388.228,188.046 393.724 C 202.069 406.067,223.403 396.561,223.430 377.958 C 223.446 366.843,209.483 262.661,207.436 258.621 C 205.363 254.530,201.037 250.354,197.223 248.760 C 195.001 247.831,150.125 235.938,148.845 235.938 C 148.563 235.938,148.511 235.322,148.730 234.570 C 148.948 233.818,149.232 230.601,149.361 227.420 L 149.595 221.637 146.639 220.613 C 142.145 219.057,137.380 215.548,135.049 212.078 C 133.137 209.231,106.813 148.395,107.288 147.921 C 107.400 147.808,116.584 159.309,127.696 173.479 C 148.041 199.422,150.008 201.476,156.037 203.079 C 159.095 203.892,176.556 202.979,193.555 201.118 L 197.656 200.669 197.656 203.745 C 197.656 205.681,198.261 207.589,199.288 208.895 C 202.835 213.404,201.377 213.281,251.328 213.280 C 302.223 213.279,301.074 213.389,304.007 208.203 C 306.417 203.940,330.681 111.921,330.146 109.070 C 328.603 100.848,316.507 98.257,311.973 105.177 C 311.317 106.178,305.601 126.252,299.270 149.787 L 287.760 192.578 265.623 192.786 C 244.337 192.986,243.534 192.939,244.760 191.585 C 251.755 183.856,248.636 168.947,238.995 164.028 C 235.018 161.999,194.115 163.633,171.360 166.730 C 168.955 167.058,168.450 166.506,151.964 145.547 C 142.655 133.712,136.031 124.744,137.245 125.619 C 138.460 126.495,142.969 129.857,147.266 133.090 L 155.078 138.969 155.726 136.086 C 158.928 121.851,152.665 107.540,140.756 101.875 C 134.336 98.821,85.440 95.179,78.125 97.209 M220.931 225.772 C 211.750 228.540,207.852 240.814,213.792 248.250 C 218.643 254.322,212.539 253.904,296.289 253.905 L 371.094 253.906 371.094 312.109 L 371.094 370.313 336.575 370.313 C 302.995 370.313,301.963 370.358,298.633 371.970 C 288.286 376.978,288.318 392.994,298.684 397.700 C 302.535 399.449,386.697 400.074,391.160 398.388 C 393.854 397.370,397.418 394.082,398.898 391.250 C 400.512 388.159,400.547 237.197,398.934 233.337 C 397.576 230.085,393.739 226.850,390.015 225.816 C 386.502 224.840,224.161 224.798,220.931 225.772 " stroke="none" fill="#000000" fill-rule="evenodd"></path></g></svg>
+            </div></div>
+            </div></div>
             </section>
 
-            <section id="Vzdelanie">
+            <section class="section" id="Vzdelanie">
                 <div class="container-sm p-3 pt-5 my-5 border  rounded" >
+                    <div class="row">
+                        <div class="col-sm-8">
                     <h2 class="c-blue">Vzdelanie</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi, rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan ipsum.</p>
+                     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+              
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi, rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan ipsum.</p>
                   </div>
+                  <div class="col-sm-4">
+                    <div class="icon" id="vzde_icon">
+                    <svg id="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="-25, -25, 450,450"><g id="svgg"><path id="path0" d="M100.720 73.752 C 49.338 92.376,6.624 107.978,5.798 108.423 C -1.774 112.502,-2.068 125.400,5.324 129.222 C 7.294 130.241,74.745 155.469,75.498 155.469 C 75.654 155.469,75.781 173.592,75.781 195.742 C 75.781 241.486,75.218 237.608,82.929 244.972 C 128.018 288.032,258.579 288.168,306.555 245.206 C 314.403 238.179,314.026 240.678,314.045 195.572 L 314.063 156.379 317.383 155.154 C 330.431 150.339,340.212 146.875,340.760 146.875 C 341.115 146.875,341.406 168.587,341.406 195.125 L 341.406 243.374 326.135 258.601 C 301.154 283.510,301.180 281.767,325.436 306.250 L 341.304 322.266 341.551 336.719 C 341.866 355.248,343.762 359.133,352.871 359.918 C 363.129 360.802,365.625 356.428,365.625 337.572 L 365.625 323.031 380.550 308.195 C 406.989 281.913,406.989 283.712,380.550 257.430 L 365.625 242.594 365.625 190.143 L 365.625 137.692 375.195 134.363 C 387.208 130.184,390.844 128.153,392.476 124.713 C 395.090 119.207,393.441 112.037,388.873 109.044 C 385.595 106.896,199.293 39.843,196.671 39.867 C 195.279 39.880,152.101 55.128,100.720 73.752 M258.304 87.167 C 292.194 99.444,325.371 111.442,332.031 113.827 C 338.691 116.213,344.397 118.395,344.711 118.676 C 345.025 118.957,326.919 125.806,304.477 133.895 C 282.034 141.984,248.079 154.229,229.022 161.106 L 194.372 173.610 121.025 146.430 C 80.684 131.481,47.802 119.125,47.953 118.974 C 48.105 118.822,81.586 106.599,122.357 91.811 C 163.127 77.023,196.530 64.906,196.585 64.884 C 196.640 64.862,224.414 74.889,258.304 87.167 M146.627 181.919 C 176.373 192.917,192.315 198.438,194.335 198.438 C 196.321 198.438,213.344 192.675,243.606 181.758 L 289.844 165.079 289.832 196.406 L 289.821 227.734 285.340 231.024 C 246.255 259.723,143.417 260.123,104.883 231.727 L 100.000 228.128 100.000 196.402 C 100.000 171.350,100.205 164.753,100.977 165.038 C 101.514 165.237,122.057 172.833,146.627 181.919 M362.505 274.614 L 370.685 282.822 362.295 291.211 L 353.906 299.600 345.517 291.211 L 337.128 282.822 345.308 274.614 C 349.807 270.100,353.676 266.406,353.906 266.406 C 354.136 266.406,358.006 270.100,362.505 274.614 " stroke="none" fill="#000000" fill-rule="evenodd"></path></g></svg>
+                </div></div>
+                </div></div>
                 </section>
 
-                <section id="Dovednosti">
+                <section class="section" id="Dovednosti">
                     <div class="container-sm p-3 pt-5 my-5 border  rounded" >
+                        <div class="row">
+                            <div class="col-sm-8">
                         <h2 class="c-blue">Dovednosti</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi, rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan ipsum.</p>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+              
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi, rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan ipsum.</p>
                       </div>
+                      <div class="col-sm-4">
+                        <div class="icon" id="dov_icon">
+                       <svg id="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="-25, -25, 450, 450"><g id="svgg"><path id="path0" d="M60.547 0.851 C 46.115 3.680,40.255 9.010,42.183 17.557 C 43.026 21.295,43.366 21.759,56.859 37.586 L 68.588 51.343 59.961 59.970 L 51.334 68.596 38.362 57.524 C 18.912 40.923,18.469 40.668,11.968 42.305 C -1.852 45.785,-4.446 83.127,7.446 107.422 C 21.501 136.137,55.460 153.494,86.317 147.733 L 90.993 146.860 118.927 174.787 L 146.862 202.713 140.840 208.771 L 134.817 214.829 123.854 203.967 C 114.929 195.124,112.357 193.005,110.022 192.571 C 97.727 190.282,90.334 204.367,99.041 213.494 L 101.107 215.659 55.798 261.150 C -0.300 317.473,0.470 316.357,0.416 341.406 C 0.315 389.109,51.619 416.409,91.985 390.133 C 94.717 388.355,113.848 369.912,140.680 343.190 L 184.876 299.177 186.381 300.840 C 193.099 308.263,205.627 304.672,207.495 294.788 C 208.501 289.464,207.378 287.641,196.012 276.146 L 185.171 265.183 191.229 259.160 L 197.287 253.138 225.213 281.073 L 253.140 309.007 252.267 313.683 C 246.510 344.522,263.832 378.421,292.576 392.568 C 317.060 404.619,354.633 401.864,357.845 387.783 C 359.270 381.534,358.815 380.758,342.487 361.635 L 331.409 348.661 340.033 340.037 L 348.657 331.412 362.414 343.141 C 380.725 358.752,381.708 359.303,388.283 357.634 C 401.965 354.161,404.434 316.684,392.568 292.576 C 378.440 263.870,344.474 246.513,313.683 252.266 L 309.007 253.140 281.066 225.206 L 253.124 197.273 290.636 159.754 L 328.149 122.236 339.660 120.048 C 358.876 116.397,354.809 120.246,378.178 83.594 C 401.101 47.640,399.979 49.622,399.991 45.078 C 400.005 39.534,399.318 38.656,379.935 19.419 C 360.473 0.104,360.340 0.000,355.078 0.000 C 350.559 0.000,353.476 -1.641,317.969 20.870 C 280.815 44.423,283.761 41.477,280.436 58.411 L 277.806 71.810 240.266 109.343 L 202.727 146.876 174.794 118.934 L 146.860 90.993 147.733 86.317 C 154.453 50.322,130.609 12.660,94.531 2.285 C 87.824 0.356,67.456 -0.503,60.547 0.851 M91.070 26.889 C 115.787 35.861,128.993 61.315,122.554 87.574 C 119.729 99.092,117.484 95.880,153.758 132.231 L 185.530 164.072 174.801 174.801 L 164.072 185.530 132.231 153.758 C 95.880 117.484,99.092 119.729,87.574 122.554 C 59.502 129.438,32.411 113.531,25.399 86.048 C 23.056 76.862,23.474 76.870,34.375 86.225 C 53.273 102.442,52.700 102.575,79.105 75.921 C 101.934 52.878,101.909 52.989,88.043 36.605 C 76.469 22.929,76.941 23.860,81.914 24.520 C 84.194 24.823,88.314 25.888,91.070 26.889 M358.155 69.583 C 340.444 97.486,343.319 94.657,330.078 97.205 C 324.063 98.362,318.438 99.499,317.578 99.732 C 316.719 99.964,282.705 133.428,241.992 174.096 L 167.968 248.037 159.966 240.034 L 151.963 232.032 225.904 158.008 C 266.572 117.295,300.036 83.281,300.268 82.422 C 300.501 81.563,301.639 75.938,302.797 69.922 C 305.350 56.671,302.088 59.988,330.056 42.200 L 353.471 27.307 363.111 36.947 L 372.752 46.588 358.155 69.583 M267.956 246.429 C 304.096 282.492,300.911 280.271,312.426 277.446 C 342.107 270.167,371.649 289.208,375.480 318.086 C 376.140 323.059,377.072 323.532,363.391 311.954 C 347.092 298.160,347.742 297.990,323.250 322.410 C 297.297 348.286,297.622 346.802,313.775 365.625 C 323.144 376.543,323.149 376.971,313.891 374.658 C 286.697 367.862,270.556 340.342,277.460 312.543 C 280.335 300.968,282.572 304.176,246.246 267.772 L 214.477 235.936 225.001 225.390 C 230.789 219.589,235.700 214.844,235.914 214.844 C 236.128 214.844,250.547 229.057,267.956 246.429 M122.860 325.935 C 70.867 377.870,74.048 375.407,58.984 375.368 C 38.061 375.314,24.627 361.872,24.652 341.016 C 24.670 325.849,22.172 329.080,74.049 277.143 L 118.339 232.801 142.772 257.221 L 167.204 281.641 122.860 325.935 M112.500 271.551 C 109.134 273.001,48.977 332.833,47.271 336.428 C 42.123 347.275,54.212 358.724,64.214 352.474 C 70.191 348.738,127.947 289.610,128.941 286.208 C 131.920 276.016,122.217 267.366,112.500 271.551 " stroke="none" fill="#000000" fill-rule="evenodd"></path></g></svg>
+                    </div></div>
+                    </div></div>
                     </section>
-                    <section id="Zaujmy">
-                        <div class="container-sm p-3 pt-5 my-5 border rounded " >
+                    <section class="section" id="Zaujmy">
+                        <div class="container-sm p-3 pt-5 my-5 border  rounded" >
+                            <div class="row">
+                                <div class="col-sm-8">
                             <h2 class="c-blue">Záujmy</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi, rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan ipsum.</p>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+              
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sapien ac facilisis efficitur. Integer faucibus eros congue arcu volutpat, et consequat lectus placerat. Donec pellentesque turpis sit amet elit rutrum tincidunt. Etiam eget rutrum dolor. Curabitur auctor vel purus in faucibus. Fusce pellentesque eros venenatis, suscipit ex quis, facilisis nunc. In in turpis ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dolor mi, rhoncus sed lorem eget, feugiat mattis risus. Praesent nibh velit, dapibus vitae nulla ut, tempus accumsan ipsum.</p>
                           </div>
+                          <div class="col-sm-4">
+                            <div class="icon" id="zau_icon">
+                    <svg id="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="-25, -25, 450,450"><g id="svgg"><path id="path0" d="M205.078 0.504 C 82.259 13.164,1.469 91.659,1.358 198.438 C 1.283 271.128,50.554 354.264,107.129 376.908 C 127.651 385.122,137.074 385.288,137.074 377.437 C 137.074 373.007,135.875 372.140,126.682 369.913 C 96.744 362.664,73.471 343.592,48.044 305.469 C -45.369 165.411,61.751 3.411,241.729 12.558 C 287.410 14.879,302.466 22.226,304.420 43.148 C 305.821 58.160,297.941 68.104,279.726 74.308 C 237.575 88.663,216.221 113.402,215.062 149.219 C 214.360 170.934,219.283 185.130,234.027 203.908 C 243.600 216.101,250.957 232.025,254.155 247.478 L 255.325 253.130 251.437 261.917 C 245.176 276.068,230.312 313.834,223.729 332.320 L 217.644 349.406 212.143 353.280 C 197.061 363.901,178.802 370.828,161.841 372.365 C 152.822 373.182,149.114 378.725,154.316 383.612 C 158.953 387.968,187.808 381.471,205.859 372.008 L 211.328 369.141 211.328 375.016 C 211.328 397.279,239.023 408.810,254.648 393.052 C 259.615 388.043,286.815 336.345,293.778 318.679 C 296.193 312.551,294.180 308.594,288.647 308.594 C 284.824 308.594,284.159 309.571,275.394 328.058 C 266.672 346.457,252.317 374.188,248.030 380.920 C 240.709 392.419,223.743 388.043,223.944 374.709 C 224.034 368.763,235.267 335.924,249.633 299.609 C 263.197 265.322,286.574 213.567,288.209 214.205 C 304.969 220.743,317.917 227.063,317.478 228.491 C 316.248 232.500,305.747 259.244,300.056 272.866 C 296.588 281.167,293.750 288.832,293.750 289.899 C 293.750 294.277,298.186 297.035,302.412 295.284 C 307.345 293.241,335.727 219.694,347.645 178.069 C 349.954 170.003,350.473 168.922,352.451 168.047 C 356.197 166.388,364.063 150.731,364.063 144.932 C 364.063 142.679,364.626 141.913,368.164 139.352 C 396.590 118.776,403.702 95.185,395.707 47.991 C 392.387 28.395,390.220 25.000,381.030 25.000 C 371.488 25.000,335.535 53.127,325.227 68.657 C 317.451 80.372,313.772 99.947,316.304 116.134 C 317.171 121.677,317.161 121.738,315.034 124.024 C 311.059 128.297,306.006 141.855,306.471 147.001 C 306.835 151.036,306.628 151.823,304.108 155.985 C 295.598 170.036,279.649 200.456,269.158 222.643 L 263.808 233.958 261.998 228.592 C 258.173 217.254,250.752 204.334,240.638 191.406 C 232.173 180.586,228.244 169.771,227.568 155.423 C 226.007 122.337,244.602 99.757,284.766 85.969 C 303.457 79.553,312.345 70.834,315.999 55.332 C 321.621 31.484,306.978 9.745,281.892 4.699 C 263.606 1.021,222.073 -1.248,205.078 0.504 M382.016 42.383 C 391.621 86.354,385.524 111.596,361.174 128.677 L 356.591 131.892 343.406 126.249 C 327.677 119.517,328.635 120.910,328.584 104.688 C 328.508 80.014,338.336 66.017,371.038 44.230 C 381.655 37.156,380.902 37.282,382.016 42.383 M158.295 44.574 C 136.960 49.897,127.505 75.498,140.085 93.881 C 156.119 117.311,193.166 108.829,197.576 80.717 C 201.087 58.331,180.197 39.110,158.295 44.574 M173.828 58.115 C 190.422 65.973,188.788 89.144,171.281 94.233 C 155.542 98.809,141.441 81.660,149.023 67.165 C 154.024 57.606,164.603 53.746,173.828 58.115 M95.027 103.246 C 74.125 107.244,60.311 128.911,65.265 149.927 C 72.286 179.711,109.052 189.810,130.605 167.874 C 156.894 141.118,132.137 96.147,95.027 103.246 M113.762 117.588 C 127.129 124.128,132.680 140.367,125.853 152.957 C 112.795 177.039,76.950 168.275,77.011 141.016 C 77.054 122.041,96.946 109.361,113.762 117.588 M351.030 143.701 C 351.663 144.319,348.524 152.725,346.438 155.995 L 345.355 157.692 332.639 152.230 C 325.644 149.226,319.634 146.487,319.283 146.143 C 318.650 145.524,321.789 137.119,323.874 133.849 L 324.957 132.151 337.674 137.614 C 344.668 140.618,350.678 143.357,351.030 143.701 M328.099 164.115 L 337.347 168.084 335.781 173.691 C 331.704 188.290,322.480 214.943,321.621 214.613 C 313.304 211.413,293.750 202.592,293.750 202.040 C 293.750 199.142,316.466 159.244,317.824 159.757 C 318.388 159.971,323.012 161.932,328.099 164.115 M83.984 196.222 C 64.755 199.839,50.812 219.699,53.654 239.424 C 58.230 271.190,96.625 283.941,119.264 261.213 C 146.045 234.327,121.526 189.161,83.984 196.222 M101.814 210.097 C 115.629 216.018,121.865 233.109,114.899 245.958 C 101.814 270.092,65.911 261.289,66.064 233.984 C 66.167 215.487,85.012 202.895,101.814 210.097 M145.400 269.985 C 118.285 277.277,108.968 311.277,128.682 330.992 C 149.673 351.983,186.880 339.657,190.527 310.504 C 193.818 284.202,170.474 263.242,145.400 269.985 M164.208 283.479 C 187.697 294.882,180.015 328.937,153.962 328.899 C 135.224 328.871,124.064 306.842,135.082 291.632 C 141.830 282.317,154.504 278.769,164.208 283.479 " stroke="none" fill="#000000" fill-rule="evenodd"></path></g></svg>
+                        </div></div>
+                        </div></div>
                         </section>
-                        <section id="Kontakt" class="container-sm  p-3 pt-5 my-5  rounded">
-                            
+                        <section  id="Kontakt" class="container-sm  p-3 pt-5 my-5  rounded">
+                            <div class="row">
+								
+                            <div class="col-sm-4">
                                 <h2 class="c-blue">Kontakt</h2>
 
 
@@ -96,14 +146,100 @@
                                         Email 
                                     </label>
                                     <input class="form-control" type="email" name="email" id="email" required><br>
+
+                                    <label>
+                                        Predmet
+                                    </label><input class="form-control" type="text" name="predmet" id="predmet" required></input><br>
+
                                     <label>
                                         Správa 
                                     </label><textarea class="form-control" type="text" name="text" id="text" required></textarea><br>
-                                    <button id="button" type="submit" class="btn bg-blue text-white">Odoslať</button>
+                                    <button id="button " type="submit"  class="btn bg-blue text-white">Odoslať</button>
                                 </form>
-                              
+								</div>
+                                <div class="col-sm-3">
+								</div>
+                                
+                            <div class="col-sm-3 clock">
+                                <div class="hour">
+                                    <div class="hr" id="hr">
+
+                                    </div>
+                                </div>
+                                <div class="min">
+                                    <div class="mn" id="mn">
+
+                                    </div>
+                                </div>
+                                <div class="sec">
+                                    <div class="sc" id="sc">
+
+                                    </div>
+                                </div>
+
+                            </div>
+							
+							</div>
                             </section>
+                        </div>
 
 </body>
 <script src="client.js"></script>
+
+<script src="bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+
+<script src="./jquery-3.6.0.js"></script>
+<script>
+    
+ $(window).scroll(function(){
+    if ($(this).scrollTop() > 2000) {
+       $('#zau_icon').addClass('zau_icon_ani');
+        
+    }
+    else if ($(this).scrollTop() > 1500) {
+       $('#dov_icon').addClass('dov_icon_ani');
+
+    }
+   else if ($(this).scrollTop() > 880) {
+       $('#vzde_icon').addClass('vzde_icon_ani');
+
+
+    } else if ($(this).scrollTop() > 380) {
+
+       $('#skus_icon').addClass('skus_icon_ani');
+    } else if ($(this).scrollTop() > 1) {
+
+$('#o_mne_icon').addClass('o_mne_icon_ani');
+} 
+});
+   
+let progress = document.getElementById('progressbar');
+let totalHeight = document.body.scrollHeight - window.innerHeight;
+window.onscroll = function()
+{
+    let progressHeight = (window.pageYOffset / totalHeight)*100;
+    progress.style.height = progressHeight + "%";
+}
+    </script>
+
+<script>
+    const deg = 6;
+       const hr = document.querySelector('#hr');
+       const mn = document.querySelector('#mn');
+       const sc = document.querySelector('#sc');
+
+setInterval(() => {
+
+    
+    let day = new Date();
+       let hh = day.getHours()*30;
+       let mm = day.getMinutes()*deg;
+       let ss = day.getSeconds()*deg;
+       
+       hr.style.transform = `rotateZ(${(hh)+(mm/12)}deg)`;
+       mn.style.transform = `rotateZ(${mm}deg)`;
+       sc.style.transform = `rotateZ(${ss}deg)`;
+});
+
+       </script>
 </html>

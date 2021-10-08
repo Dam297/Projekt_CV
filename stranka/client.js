@@ -5,18 +5,18 @@ form_el.addEventListener("submit", function(evt) {
     evt.preventDefault();
     
     var sprava = document.getElementById('text');
+    var predmet = document.getElementById('predmet');
     var toEmail = document.getElementById('email');
-    
-    
-    var spravka = sprava.value;
-    var emailik = toEmail.value;
 
+    
+  
 
     const data = {
 
     
-        email: emailik,
-     text: spravka,
+        email: toEmail.value,
+        predmet: predmet.value,
+        text: sprava.value,
 
     };
 
@@ -33,16 +33,18 @@ form_el.addEventListener("submit", function(evt) {
     })
 
   
-    
+
 
     .then(response => response.json())
     
     .then(data => {
-      console.log('Úspešne poslané:', data);
+      alert('Úspešne poslané')
+     // console.log('Úspešne poslané:', data);
     })
 
     .catch((error) => {
-      console.error('Error:', error);
+      alert('Nastala chyba')
+      //console.error('Error:', error);
     });    
 });
 

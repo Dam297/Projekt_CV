@@ -1,0 +1,364 @@
+.bg-blue {
+    background-color: #54DEFD;
+} 
+.bg-blues {
+    background-color: #49C6E5;
+} 
+li:hover {
+  text-decoration: underline;
+  }
+  
+  nav {
+    height: 5rem;
+  }
+  .c-blue {
+    color: #54DEFD;
+} 
+.btn {
+   padding: 1rem;
+   font-size: 1.4rem;
+   margin-left: auto;
+   margin-right: auto;
+   overflow: hidden;
+   background: linear-gradient(90deg,#49C6E5,#54DEFD);
+
+  }
+
+  .navbars .navbar-nav .nav-link.active {
+    color: #fff;
+  }
+  #sections .section:before { 
+    display: block; 
+    content: " "; 
+    margin-top: -2rem; 
+    height: 2rem; 
+    visibility: hidden; }
+
+    .bg-blues {
+      background-color: #49C6E5;
+  } 
+
+
+  .container-fluid {
+    background-color: #49C6E5;
+    padding: 10px;
+}
+   
+
+.navbar {
+  background-color: #49C6E5;
+  padding: 10px;
+}
+
+
+
+.col-sm-4 .icon {
+
+  width: 200px;
+
+  }
+  .col-sm-4 .icon path{
+
+    fill: transparent;
+    stroke-width: 4;
+    stroke: #54DEFD;
+ 
+     }
+
+
+   #o_mne_icon path{
+stroke: #ffffff;
+      stroke-dasharray: 1450;
+      stroke-dashoffset: 0;
+    
+        }
+
+        .o_mne_icon_ani path {
+
+          animation: animate-o_mne 2s linear forwards;
+         
+             }
+
+@keyframes animate-o_mne{
+
+0%{
+   stroke-dashoffset: 0;
+}
+40%{
+   stroke-dashoffset: 1450;
+}
+80%{
+   stroke-dashoffset: 2900;
+   fill: transparent;
+}
+100%{
+   stroke-dashoffset: 2900;
+   fill: #ffffff;
+}
+}
+
+
+
+
+
+     #skus_icon path{
+
+      stroke-dasharray: 2300;
+      stroke-dashoffset: 0;
+    
+        }
+
+        .skus_icon_ani path {
+
+          animation: animate-skus 2s linear forwards;
+         
+             }
+
+@keyframes animate-skus{
+
+0%{
+   stroke-dashoffset: 0;
+}
+40%{
+   stroke-dashoffset: 2300;
+}
+80%{
+   stroke-dashoffset: 4600;
+   fill: transparent;
+}
+100%{
+   stroke-dashoffset: 4600;
+   fill: #54DEFD;
+}
+}
+
+
+
+#vzde_icon path{
+
+  stroke-dasharray: 1700;
+  stroke-dashoffset: 0;
+
+    }
+    .vzde_icon_ani path {
+
+      animation: animate-vzde 2s linear forwards;
+     
+         }
+
+@keyframes animate-vzde{
+
+0%{
+stroke-dashoffset: 0;
+}
+40%{
+stroke-dashoffset: 1700;
+}
+80%{
+stroke-dashoffset: 3400;
+fill: transparent;
+}
+100%{
+stroke-dashoffset: 3400;
+fill: #54DEFD;
+}
+}
+
+#dov_icon path{
+
+  stroke-dasharray: 2350;
+  stroke-dashoffset: 0;
+
+    }
+    .dov_icon_ani path {
+
+      animation: animate-dov 2s linear forwards;
+     
+         }
+
+@keyframes animate-dov{
+
+0%{
+stroke-dashoffset: 0;
+}
+40%{
+stroke-dashoffset: 2350;
+}
+80%{
+stroke-dashoffset: 4700;
+fill: transparent;
+}
+100%{
+stroke-dashoffset: 4700;
+fill: #54DEFD;
+}
+}
+
+#zau_icon path{
+
+  stroke-dasharray: 3210;
+  stroke-dashoffset: 0;
+
+    }
+    .zau_icon_ani path {
+
+      animation: animate-zau 2s linear forwards;
+     
+         }
+
+@keyframes animate-zau{
+
+0%{
+stroke-dashoffset: 0;
+}
+40%{
+stroke-dashoffset: 3210;
+}
+80%{
+stroke-dashoffset: 6420;
+fill: transparent;
+}
+100%{
+stroke-dashoffset: 6420;
+fill: #54DEFD;
+}
+}
+
+::-webkit-scrollbar
+{
+	width: 0;
+}
+
+#scrollPath{
+
+  position: fixed;
+	top: 0;
+	right: 0;
+	width: 10px;
+	height: 100%;
+	background:rgba(255,255,255,0.05);
+
+    }
+
+#progressbar{
+
+  position: fixed;
+	top: 0;
+	right: 0;
+	width: 10px;
+	background: linear-gradient(to top,  #54DEFD, #49C6E5 );
+	
+    }
+
+#progressbar:before{
+
+	content: '';
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top,  #54DEFD, #49C6E5 );
+    }
+
+#progressbar:after{
+
+	content: '';
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top,  #54DEFD, #49C6E5 );
+	filter: blur(30px);
+	
+    }
+a {
+	font-size: 1.19rem;
+}
+
+.clock {
+	width: 350px;
+		height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(clock.png);
+		background-size: cover;
+	border: 4px solid #49C6E5;
+	border-radius: 50%;
+	box-shadow: 0 -15px 15px rgba(255,255,255,0.04), 
+		inset 0 -15px 15px rgba(255,255,255,0.04),
+		 0 15px 15px rgba(0,0,0,0.1),
+		inset 0 15px 15px rgba(0,0,0,0.1);
+	
+	
+}
+.clock:before {
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: #49C6E5;
+	border-radius: 50%;
+	z-index:  10000;
+	
+}
+.clock .hour, 
+.clock .min, 
+.clock .sec{
+	position: absolute;
+	
+}
+.clock .hour, .hr{
+	width: 160px;
+	height: 160px;
+}
+
+.clock .min, .mn{
+	width: 190px;
+	height: 190px;
+}
+.clock .sec, .sc{
+	width: 230px;
+	height: 230px;
+}
+
+
+.hr, .mn, .sc {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	border-radius: 50%;
+	
+}
+
+.hr:before {
+	content: '';
+	position: absolute;
+	width: 8px;
+	height: 80px;
+	background: #54DEFD;
+	border-radius: 6px 6px 0 0 ;
+	z-index:  10;
+}
+
+.mn:before {
+	content: '';
+	position: absolute;
+	width: 4px;
+	height: 90px;
+	background: #54DEFD;
+	border-radius: 6px 6px 0 0 ;
+	z-index:  11;
+}
+
+.sc:before {
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 150px;
+	background: red;
+	border-radius: 6px 6px 0 0 ;
+	z-index:  12;
+}
